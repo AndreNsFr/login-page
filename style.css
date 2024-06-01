@@ -1,0 +1,78 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.farofa{
+    display: flex;
+    background-image: url(src/desert-landscapes-3-1393547.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #ac9760be;
+    padding-block: 20px;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    font-size: large;
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+
+    
+}
+
+.form  input {
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #ac9760;
+    border: 5px transparent ;
+    outline: none;
+    padding-left: 10px ;
+}
+
+
+
+
+button{
+    border-radius: 90px;
+    background-color: #ac9760;
+    border: solid #bda66d ;
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #8b7a4f;
+    transition: 0.5s;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+
+
+
+
